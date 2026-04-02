@@ -1,5 +1,4 @@
 uploads = []
-outputs = []
 
 [[generated]]
 id = "CYU9C0wnDr9tVipD0w-vE"
@@ -60,3 +59,9 @@ id = "qeeTJ8J_YyVxoxbgBLwFW"
 uri = "file://artifacts/birlla/public/images/texture-silk.png"
 type = "image"
 title = "Pink silk texture"
+
+[[outputs]]
+id = "jiDDQLOVdq7NJBhiTIzKg"
+uri = "file://birlla-website.tar.gz"
+type = "unspecified"
+title = "Birlla Website - Full Code"
