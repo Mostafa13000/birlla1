@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "CYU9C0wnDr9tVipD0w-vE"
+uri = "file://artifacts/birlla/public/images/hero.png"
+type = "image"
+title = "Hero model natural makeup"
+
+[[generated]]
+id = "Wk6XTAQg6_fcfpFn_fjZV"
+uri = "file://artifacts/birlla/public/images/model-2.png"
+type = "image"
+title = "Model face close up"
+
+[[generated]]
+id = "_otNC6Wy4kLQkv5JwfROZ"
+uri = "file://artifacts/birlla/public/images/model-3.png"
+type = "image"
+title = "Model applying lipstick"
+
+[[generated]]
+id = "8YK-ILrhtYyox7o1hCxAk"
+uri = "file://artifacts/birlla/public/images/product-flatlay.png"
+type = "image"
+title = "Product flat lay"
+
+[[generated]]
+id = "Fyh7No6zXIF3MzBV9v1kp"
+uri = "file://artifacts/birlla/public/images/product-serum.png"
+type = "image"
+title = "Glass serum bottle"
+
+[[generated]]
+id = "-7bQXDfJcd4_vmcKb5uOD"
+uri = "file://artifacts/birlla/public/images/product-lipstick.png"
+type = "image"
+title = "Luxury lipsticks"
+
+[[generated]]
+id = "wbCpN99tLnMAfe7mZMloB"
+uri = "file://artifacts/birlla/public/images/product-eyeshadow.png"
+type = "image"
+title = "Eyeshadow palette"
+
+[[generated]]
+id = "Gpfx3YUi-277dhKhsH_Sg"
+uri = "file://artifacts/birlla/public/images/product-bodycare.png"
+type = "image"
+title = "Body care products"
+
+[[generated]]
+id = "HQPJLwYUPhSqEx95vMZt0"
+uri = "file://artifacts/birlla/public/images/brand-story.png"
+type = "image"
+title = "Vanity table brand story"
+
+[[generated]]
+id = "qeeTJ8J_YyVxoxbgBLwFW"
+uri = "file://artifacts/birlla/public/images/texture-silk.png"
+type = "image"
+title = "Pink silk texture"
