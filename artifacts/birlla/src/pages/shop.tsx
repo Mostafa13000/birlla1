@@ -18,7 +18,7 @@ export default function Shop() {
     : products.filter(p => p.category === activeCategory);
 
   return (
-    <div className="pt-24 pb-32 min-h-[100dvh] bg-background">
+    <div className="pt-36 pb-32 min-h-[100dvh] bg-background">
       {/* Header */}
       <div className="py-16 md:py-24 text-center px-4">
         <motion.h1 

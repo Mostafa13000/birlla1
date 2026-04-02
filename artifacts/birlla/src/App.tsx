@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { ForSaleBanner } from "@/components/layout/ForSaleBanner";
 
 // Pages
 import Home from "@/pages/home";
@@ -21,6 +22,7 @@ function ScrollToTop() {
 function Router() {
   return (
     <div className="flex flex-col min-h-screen">
+      <ForSaleBanner />
       <Navbar />
       <main className="flex-grow">
         <Switch>

@@ -7,7 +7,7 @@ const fadeUp = {
 
 export default function About() {
   return (
-    <div className="w-full bg-background overflow-hidden pt-20">
+    <div className="w-full bg-background overflow-hidden pt-32">
       {/* Hero Section */}
       <section className="relative h-[70vh] w-full">
         <div className="absolute inset-0">
