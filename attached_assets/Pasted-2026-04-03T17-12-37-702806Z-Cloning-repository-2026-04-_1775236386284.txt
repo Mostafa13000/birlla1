@@ -1,0 +1,45 @@
+2026-04-03T17:12:37.702806Z	Cloning repository...
+2026-04-03T17:12:38.94789Z	From https://github.com/Mostafa13000/birlla1
+2026-04-03T17:12:38.948399Z	 * branch            1163546c6041fa26831e6e285d21c2b46420ccd2 -> FETCH_HEAD
+2026-04-03T17:12:38.948498Z	
+2026-04-03T17:12:39.057629Z	HEAD is now at 1163546 Add a new image file to the project assets
+2026-04-03T17:12:39.058044Z	
+2026-04-03T17:12:39.108172Z	
+2026-04-03T17:12:39.108588Z	Using v2 root directory strategy
+2026-04-03T17:12:39.123686Z	Success: Finished cloning repository files
+2026-04-03T17:12:41.444528Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-04-03T17:12:41.444944Z	
+2026-04-03T17:12:42.55208Z	No Wrangler configuration file found. Continuing.
+2026-04-03T17:12:42.794221Z	Detected the following tools from environment: pnpm@10.11.1, nodejs@22.16.0
+2026-04-03T17:12:43.779234Z	Installing project dependencies: pnpm install
+2026-04-03T17:12:44.300646Z	Scope: all 9 workspace projects
+2026-04-03T17:12:44.381458Z	Lockfile is up to date, resolution step is skipped
+2026-04-03T17:12:44.418358Z	Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-04-03T17:12:44.489275Z	Packages: +486
+2026-04-03T17:12:44.491196Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-04-03T17:12:45.416758Z	Progress: resolved 486, reused 0, downloaded 192, added 192
+2026-04-03T17:12:46.430026Z	Progress: resolved 486, reused 0, downloaded 306, added 284
+2026-04-03T17:12:47.431363Z	Progress: resolved 486, reused 0, downloaded 388, added 318
+2026-04-03T17:12:48.432158Z	Progress: resolved 486, reused 0, downloaded 485, added 485
+2026-04-03T17:12:48.723614Z	Progress: resolved 486, reused 0, downloaded 486, added 486, done
+2026-04-03T17:12:48.931971Z	.../esbuild@0.27.3/node_modules/esbuild postinstall$ node install.js
+2026-04-03T17:12:49.066039Z	.../esbuild@0.27.3/node_modules/esbuild postinstall: Done
+2026-04-03T17:12:49.37803Z	
+2026-04-03T17:12:49.378295Z	devDependencies:
+2026-04-03T17:12:49.378343Z	+ prettier 3.8.1
+2026-04-03T17:12:49.3784Z	+ typescript 5.9.3
+2026-04-03T17:12:49.378433Z	
+2026-04-03T17:12:49.425978Z	. preinstall$ sh -c 'rm -f package-lock.json yarn.lock; case "$npm_config_user_agent" in pnpm/*) ;; *) echo "Use pnpm instead" >&2; exit 1 ;; esac'
+2026-04-03T17:12:49.444543Z	. preinstall: Done
+2026-04-03T17:12:49.623071Z	Done in 5.6s using pnpm v10.11.1
+2026-04-03T17:12:49.681096Z	Executing user command: npm install -g pnpm && pnpm install && pnpm --filter @workspace/birlla run build
+2026-04-03T17:12:50.767331Z	npm error code EEXIST
+2026-04-03T17:12:50.767755Z	npm error path /opt/buildhome/.asdf/installs/nodejs/22.16.0/bin/pnpm
+2026-04-03T17:12:50.767944Z	npm error EEXIST: file already exists
+2026-04-03T17:12:50.76803Z	npm error File exists: /opt/buildhome/.asdf/installs/nodejs/22.16.0/bin/pnpm
+2026-04-03T17:12:50.768067Z	npm error Remove the existing file and try again, or run npm
+2026-04-03T17:12:50.768096Z	npm error with --force to overwrite files recklessly.
+2026-04-03T17:12:50.768127Z	npm error A complete log of this run can be found in: /opt/buildhome/.npm/_logs/2026-04-03T17_12_49_988Z-debug-0.log
+2026-04-03T17:12:50.814825Z	Failed: Error while executing user command. Exited with error code: 1
+2026-04-03T17:12:50.821763Z	Failed: build command exited with code: 1
+2026-04-03T17:12:51.836225Z	Failed: error occurred while running build command
