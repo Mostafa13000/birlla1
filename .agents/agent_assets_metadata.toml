@@ -71,3 +71,9 @@ id = "mxNnAdPJXOM-iK3gLV8ur"
 uri = "file://birlla-ready.tar.gz"
 type = "unspecified"
 title = "Birlla - جاهز للرفع على GitHub"
+
+[[outputs]]
+id = "fkikS7p1CX_7XEV9GIdnn"
+uri = "file://birlla-html.tar.gz"
+type = "unspecified"
+title = "Birlla - ملف HTML واحد كامل بالصور"
