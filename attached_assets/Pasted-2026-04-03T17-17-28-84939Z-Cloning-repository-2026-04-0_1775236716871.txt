@@ -1,0 +1,64 @@
+2026-04-03T17:17:28.84939Z	Cloning repository...
+2026-04-03T17:17:30.545326Z	From https://github.com/Mostafa13000/birlla1
+2026-04-03T17:17:30.54566Z	 * branch            63a7ab41de38d276f20442f2f4b3a297de950a49 -> FETCH_HEAD
+2026-04-03T17:17:30.545738Z	
+2026-04-03T17:17:30.647976Z	HEAD is now at 63a7ab4 Add required environment variables for website deployment
+2026-04-03T17:17:30.648457Z	
+2026-04-03T17:17:30.693035Z	
+2026-04-03T17:17:30.693468Z	Using v2 root directory strategy
+2026-04-03T17:17:30.711341Z	Success: Finished cloning repository files
+2026-04-03T17:17:32.696653Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-04-03T17:17:32.697172Z	
+2026-04-03T17:17:33.804333Z	No Wrangler configuration file found. Continuing.
+2026-04-03T17:17:33.97127Z	Detected the following tools from environment: pnpm@10.11.1, nodejs@22.16.0
+2026-04-03T17:17:35.02233Z	Installing project dependencies: pnpm install
+2026-04-03T17:17:35.571469Z	Scope: all 9 workspace projects
+2026-04-03T17:17:35.64512Z	Lockfile is up to date, resolution step is skipped
+2026-04-03T17:17:35.675723Z	Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-04-03T17:17:35.765834Z	Packages: +486
+2026-04-03T17:17:35.767649Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-04-03T17:17:36.676512Z	Progress: resolved 486, reused 0, downloaded 136, added 108
+2026-04-03T17:17:37.677098Z	Progress: resolved 486, reused 0, downloaded 291, added 270
+2026-04-03T17:17:38.679422Z	Progress: resolved 486, reused 0, downloaded 322, added 282
+2026-04-03T17:17:39.679199Z	Progress: resolved 486, reused 0, downloaded 461, added 351
+2026-04-03T17:17:39.855638Z	Progress: resolved 486, reused 0, downloaded 486, added 486, done
+2026-04-03T17:17:40.084292Z	.../esbuild@0.27.3/node_modules/esbuild postinstall$ node install.js
+2026-04-03T17:17:40.188893Z	.../esbuild@0.27.3/node_modules/esbuild postinstall: Done
+2026-04-03T17:17:40.476795Z	
+2026-04-03T17:17:40.477123Z	devDependencies:
+2026-04-03T17:17:40.477216Z	+ prettier 3.8.1
+2026-04-03T17:17:40.477286Z	+ typescript 5.9.3
+2026-04-03T17:17:40.478093Z	
+2026-04-03T17:17:40.520132Z	. preinstall$ sh -c 'rm -f package-lock.json yarn.lock; case "$npm_config_user_agent" in pnpm/*) ;; *) echo "Use pnpm instead" >&2; exit 1 ;; esac'
+2026-04-03T17:17:40.800387Z	. preinstall: Done
+2026-04-03T17:17:41.015456Z	Done in 5.7s using pnpm v10.11.1
+2026-04-03T17:17:41.080256Z	Executing user command: pnpm install && pnpm --filter @workspace/birlla run build
+2026-04-03T17:17:41.640063Z	Scope: all 9 workspace projects
+2026-04-03T17:17:41.742199Z	Lockfile is up to date, resolution step is skipped
+2026-04-03T17:17:41.80798Z	Already up to date
+2026-04-03T17:17:42.880418Z	
+2026-04-03T17:17:42.926998Z	. preinstall$ sh -c 'rm -f package-lock.json yarn.lock; case "$npm_config_user_agent" in pnpm/*) ;; *) echo "Use pnpm instead" >&2; exit 1 ;; esac'
+2026-04-03T17:17:42.938491Z	. preinstall: Done
+2026-04-03T17:17:43.063995Z	Done in 1.7s using pnpm v10.11.1
+2026-04-03T17:17:43.607823Z	
+2026-04-03T17:17:43.608179Z	> @workspace/birlla@0.0.0 build /opt/buildhome/repo/artifacts/birlla
+2026-04-03T17:17:43.608293Z	> vite build --config vite.config.ts
+2026-04-03T17:17:43.608399Z	
+2026-04-03T17:17:44.228761Z	[31mfailed to load config from /opt/buildhome/repo/artifacts/birlla/vite.config.ts[39m
+2026-04-03T17:17:44.230322Z	[31merror during build:
+2026-04-03T17:17:44.230518Z	Error: BASE_PATH environment variable is required but was not provided.
+2026-04-03T17:17:44.2306Z	    at file:///opt/buildhome/repo/artifacts/birlla/node_modules/.vite-temp/vite.config.ts.timestamp-1775236664063-b84daf399eb8f.mjs:20:9
+2026-04-03T17:17:44.230663Z	    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+2026-04-03T17:17:44.230714Z	    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+2026-04-03T17:17:44.230769Z	    at async loadConfigFromBundledFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35909:12)
+2026-04-03T17:17:44.230864Z	    at async bundleAndLoadConfigFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35797:17)
+2026-04-03T17:17:44.230951Z	    at async loadConfigFromFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35764:42)
+2026-04-03T17:17:44.231028Z	    at async resolveConfig (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35413:22)
+2026-04-03T17:17:44.231085Z	    at async createBuilder (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:33875:19)
+2026-04-03T17:17:44.231145Z	    at async CAC.<anonymous> (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/cli.js:629:10)[39m
+2026-04-03T17:17:44.276401Z	/opt/buildhome/repo/artifacts/birlla:
+2026-04-03T17:17:44.276726Z	 ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @workspace/birlla@0.0.0 build: `vite build --config vite.config.ts`
+2026-04-03T17:17:44.276883Z	Exit status 1
+2026-04-03T17:17:44.310929Z	Failed: Error while executing user command. Exited with error code: 1
+2026-04-03T17:17:44.317232Z	Failed: build command exited with code: 1
+2026-04-03T17:17:44.98316Z	Failed: error occurred while running build command
